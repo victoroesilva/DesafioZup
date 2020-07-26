@@ -1,0 +1,134 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-26T22:12:00.191Z",
+        "line": 23,
+        "name": "Inserir e validar itens no carrinho",
+        "description": "",
+        "id": "desafio-zup---automacao-web;inserir-e-validar-itens-no-carrinho;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8617000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que estou no \"https://www.americanas.com.br/\" de comercio online",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.americanas.com.br/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.AmericanasSteps.queEstouNoDeComercioOnline(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 10931000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "pesquiso por \"Playstation 4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Playstation 4\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.AmericanasSteps.pesquisoPor(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 710000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "consisto o retorno da busca de modo a idenficiar o meu \"Playstation 4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Playstation 4\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.AmericanasSteps.consistoORetornoDaBuscaDeModoAIdenficiarOMeu(java.lang.String)"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 6462000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "escolho um item da lista",
+            "match": {
+              "location": "stepDefinition.AmericanasSteps.escolhoUmItemDaLista()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 8108000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "adiciono o produto no carrinho",
+            "match": {
+              "location": "stepDefinition.AmericanasSteps.adicionoOProdutoNoCarrinho()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2229000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "o carrinho devera conter o \"Playstation 4\" selecionado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Playstation 4\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinition.AmericanasSteps.oCarrinhoDeveraConterOSelecionado(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adccarrinho"
+          }
+        ]
+      }
+    ],
+    "name": "Desafio Zup - Automacao Web",
+    "description": "  entre em um grande portal de comercio online (exe: Americanas, Submarino, Magazine Luiza)\n  faca uma busca por um produto\n  valide o retorno da busca\n  escolha um produto na lista\n  Adicione o carrinho\n  Valide o produto no carrinho",
+    "id": "desafio-zup---automacao-web",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/main/resources/features/Americanas.feature",
+    "tags": [
+      {
+        "name": "@adccarrinho",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

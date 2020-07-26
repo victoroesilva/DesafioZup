@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="37.413">
+<testcase classname="Desafio Zup - Automacao Web" name="Inserir e validar itens no carrinho" time="37.18">
+<system-out><![CDATA[Dado que estou no "https://www.americanas.com.br/" de comercio online.......passed
+Quando pesquiso por "Playstation 4".........................................passed
+Entao consisto o retorno da busca de modo a idenficiar o meu "Playstation 4".passed
+Quando escolho um item da lista.............................................passed
+E adiciono o produto no carrinho............................................passed
+Entao o carrinho devera conter o "Playstation 4" selecionado................passed
+]]></system-out>
+</testcase>
+</testsuite>
